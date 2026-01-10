@@ -1,4 +1,3 @@
-mod dsiplay;
 use arboard::Clipboard;
 use std::io::{self, IsTerminal, Read, Write};
 
