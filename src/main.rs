@@ -1,5 +1,5 @@
 mod dsiplay;
-use arboard::{Clipboard, SetExtLinux};
+use arboard::Clipboard;
 use std::io::{self, IsTerminal, Read, Write};
 
 fn main() -> anyhow::Result<()> {
